@@ -1,0 +1,434 @@
+/* ここから下に記載していく */
+@charset "utf-8";
+
+html{
+    font-size: 62.5%;/*16px×62.5%=10px*/
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+body{
+    color: #333333;
+    font-family:"Open Sans",'ヒラギノ角ゴ ProN W3', Hiragino Kaku Gothic ProN, "メイリオ", Meiryo, sans-serif;
+    font-size: 1.6rem;
+    width: 1200px;
+    margin:auto
+}
+
+.text-center{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2.4rem;
+}
+
+/* Header */
+.header{
+    background-color: #fff;
+}
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo{
+    margin: 0 0 0 20px;
+    width: 300px;
+    height: auto;
+}
+
+.header__list{
+    display: flex;
+}
+
+.header__item{
+    margin: 30px;
+    text-transform: uppercase;
+}
+
+.header__item>a{
+    color: #222222;
+    font-size: 21px;
+    text-decoration: none;
+}
+
+.header__item>a:hover{
+    opacity: 0.6;
+}
+
+/* Mainvisual */
+.mainvisual{
+    position: relative;
+    margin: 0 0 60px;
+}
+
+.mainvisual__text{
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    white-space: nowrap;
+    text-align: center;
+}
+
+.mainvisual__text1{
+    font-size: 4.0rem;
+    font-weight: bold;
+    margin: 0 0 30px;
+}
+
+.mainvisual__text2{
+    font-size: 3.5rem;
+}
+
+/* About */
+.about__title{
+    color: #ffd61a;
+    margin: 0 0 30px;
+}
+
+.about__title2{
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 0 0 60px;
+}
+
+.about__text{
+    text-align: center;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    margin: 0 0 40px;
+}
+
+.about-subsection{
+    margin: 0 0 80px;
+}
+
+.about__list{
+    display: flex;
+    margin: 0 0 60px;
+}
+
+.about__item{
+    width: 25%;
+}
+
+/* Course */
+.course__title{
+    margin: 0 0 30px;
+}
+
+.course__text{
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin: 0 0 60px;
+}
+
+.course__subtitle{
+    font-size: 1.8rem;
+    margin: 0 0 40px;
+    font-weight: bold;
+}
+
+.course__subtext{
+    font-size: 1.5rem;
+    line-height: 1.5;
+
+}
+
+.course__list1{
+    display: flex;
+}
+
+.course__item1{
+    width: 50%;
+}
+
+.course__item1-1{
+    background-color: #fafafa;
+    padding: 0 0 0 50px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.course__item1-1-1{ 
+    width: 430px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.course__list2{
+    display: flex;
+}
+
+.course__item2{
+    width: 50%;
+}
+
+.course__item2-1{
+    background-color: #fafafa;
+    padding: 0 50px 0 140px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.course__item2-1-1{ 
+    width: 430px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.course__list3{
+    display: flex;
+}
+
+.course__item3{
+    width: 50%;
+}
+
+.course__item3-1{
+    background-color: #fafafa;
+    padding: 0 0 0 50px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.course__item3-1-1{ 
+    width: 430px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.course{
+    margin: 0 0 60px;
+}
+
+/* News */
+.news__title{
+    color: #ffd61a;
+    margin: 0 0 30px;
+}
+
+.news__subtitle{
+    text-align: center;   
+    margin: 0 0 60px;
+}
+ 
+.news__list{
+    display: flex;
+    margin: 0 0 60px;
+    justify-content: center;
+}
+
+.news__item{
+    width: 300px;
+    font-size: 1.4rem;
+    line-height: 1.5;
+}
+
+.news__item:hover {
+	opacity: 0.6;
+}
+
+.news__item1{
+    margin: 0 30px 0 0;
+}
+
+.news__itempic{
+    margin: 0 0 30px;
+}
+
+.news__itemdate{
+    margin: 0 0 24px;
+}
+
+.btn{
+    display: block;
+    margin: auto;
+    padding: 21px 0;
+    text-align: center;
+    width: 300px;
+    background-color: #ffb61a;
+    color: #fff ;
+    text-decoration: none;
+    font-size: 1.8rem;
+    border: 0;
+}
+
+.btn:hover {
+	opacity: 0.6;
+}
+
+.news{
+    margin: 0 0 60px;
+}
+
+/* Access */
+
+.access{
+    background-color: #fafafa;
+    text-align: center;
+    padding: 60px 0;
+    margin: 0 0 60px;
+}
+
+.acccess__title{
+    margin: 0 0 30px;
+}
+
+.acccess__subtitle{
+    margin: 0 0 60px;
+    text-align: center;
+}
+
+.googlemap{
+    margin: 0 0 60px;
+}
+
+.access__table{
+    margin:auto;
+    text-align: left;
+}
+
+.access__tableitem{
+    height: 50px;
+    font-size: 1.6rem;
+    margin: 0 0 30px 0;
+}
+
+.access__tableitem2{
+    height: 50px;
+    font-size: 1.6rem;
+    padding: 0 0 0 20px;
+}
+
+/* Contact */
+
+.contact{
+    margin: 0 0 140px;
+}
+.contact__title{
+    margin: 0 0 30px;
+}
+.contact__subtitle{
+    margin: 0 0 60px;
+    text-align: center;
+}
+
+.contact__text1{
+    margin: 0 0 30px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.contact__text2{
+    margin: 0 0 70px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.contact__form{
+    margin: 0 0 30px;
+}
+
+.contact__row{
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: dotted 1px #bfbfbf;  
+    padding: 10px 0;
+    width: 640px;
+    height: 36px;
+    line-height: 1.5;
+}
+
+.contact__q{
+    width: 160px;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 64px 0 16px;
+}
+
+.contact__a{
+    width: 392px;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 8px 8px 8px 0;
+    font-size: 1.4rem;
+}
+
+.contact__a-checkbox{
+    display: block;
+    margin: 0 0 24px;
+}
+
+.contact__a-checkbox2{
+    display: block;
+}
+
+.contact__formparts1{
+    box-sizing: border-box;
+    width: 328px;
+    height: 36px;
+    margin: 0 0 0 8px;
+    padding: 0 0 0 8px;
+    font-size: 1.4rem;
+    border: solid 1px #c9c9c9;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.contact__formparts2{
+    box-sizing: border-box;
+    width: 328px;
+    margin: 0 0 0 8px;
+    padding: 8px;
+    font-size: 1.4rem;
+    border: solid 1px #c9c9c9;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+input[type*="checkbox"]{
+    margin: 0 20px 0 8px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: solid 1px #a0a0a0;
+    width: 16px;
+    height: 16px;
+    border-radius: 20%;
+    vertical-align: -2px;
+}
+
+input[type*="checkbox"]:checked{
+    background-color: #a0a0a0;
+}
+
+.contact__test{
+    border-right: black;
+}
+
+/* Footer⇒DONE */
+
+.footer{
+    background-color: #707070;
+    padding: 30px 0;
+}
+ 
+
+.copyrights{
+    color: #FFF;
+    text-align: center;
+}
